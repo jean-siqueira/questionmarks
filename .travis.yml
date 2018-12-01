@@ -7,3 +7,6 @@ deploy:
   secure: $HEROKU_API_KEY
  on: staging
  app: questionmarks
+ before_install:
+  - chmod +x mvnw
+ 

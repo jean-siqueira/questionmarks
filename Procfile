@@ -1,1 +1,1 @@
-release: mvn liquibase:update -Prelease
+release: mvn clean install -Prelease

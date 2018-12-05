@@ -1,1 +1,1 @@
-release: mvn clean install -Prelease -DprofileIdEnabled=true
+release: mvn clean install -Pprod -DprofileIdEnabled=true
